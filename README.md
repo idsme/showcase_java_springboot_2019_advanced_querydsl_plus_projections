@@ -24,7 +24,7 @@ code an API service by hand on the FE side again.
 ## Json/SOAP certainly not REST :
 
 - <img
-  src="./ReferenceInformationEndpoint.png"
+  src="./NotRest_ButJson_Soap.jpg"
   alt="Json/SOAP not Rest"
   title="The wrong way to do rest"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
