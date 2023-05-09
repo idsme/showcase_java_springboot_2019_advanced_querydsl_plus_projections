@@ -1,13 +1,12 @@
-# ShowCase on how to LOW code 
+# ShowCase of Rest Perfect implementaitoion.
 * JAVA/SPRING 2 plus
 * QueryDSL
 * Spring Projections 
 
 ## Conclusion
-Code was reduced by 80% and the implementation time at controller & repository level was cut just a third.
-Projections took same amount of time as DTO's but no unit tested where need. So overall it was a great experience.
-I learned more about REST end-point format, Swagger Testing & FE Model and Service generation. I will probably never
-code an API service by hand on the FE side again.
+I learned a lot more about REST during this showcase then expected. Additionally, I will probably never code an API service and Models by hand on the SPA FE side again.
+Further more BE Code was reduced by 80% and the implementation time at controller & repository level was cut to just a third.
+Projections took the same amount of time as DTO's, but no unit tested where need. So adaptation is easier than with DTO's. Overall it liked this stack. And found it a great experience.
 
 ### Per Item Benefits
 * Spring Data Rest really can be used to lower your code base dramatically. Creating a full CRUD API with just one Repository interface with some annotations.
