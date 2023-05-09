@@ -1,0 +1,46 @@
+###
+
+POST http://localhost:8080/some/rest/users
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": "My first user Id"
+}
+
+###
+###
+
+POST http://localhost:8080/some/rest/users
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": "My second user Id"
+}
+
+###
+
+
+###
+
+POST http://localhost:8080/some/rest/users
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": "My third user Id"
+}
+
+###
+
+POST http://localhost:8080/some/rest/users
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": "My fourth user Id",
+  "description":"IdDescription"
+}
+
+###

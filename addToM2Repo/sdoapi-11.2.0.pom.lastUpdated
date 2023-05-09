@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 09 14:46:27 CEST 2023
+https\://repo.maven.apache.org/maven2/.lastUpdated=1683635435840
+http\://0.0.0.0/.error=Could not transfer artifact oracle\:sdoapi\:pom\:11.2.0 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [maven-tecgraf (http\://maven.tecgraf.puc-rio.br\:8081/nexus/content/repositories/public, default, releases+snapshots)]
+https\://repo1.maven.org/maven2/.error=
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1683636387495
+https\://repo.maven.apache.org/maven2/.error=
+https\://mvnrepository.com/artifact/.error=Could not transfer artifact oracle\:sdoapi\:pom\:11.2.0 from/to mavenrepository (https\://mvnrepository.com/artifact/)\: authorization failed for https\://mvnrepository.com/artifact/oracle/sdoapi/11.2.0/sdoapi-11.2.0.pom, status\: 403 Forbidden
+@default-mavenrepository-https\://mvnrepository.com/artifact/.lastUpdated=1683636387538
+https\://repo1.maven.org/maven2/.lastUpdated=1683635435756

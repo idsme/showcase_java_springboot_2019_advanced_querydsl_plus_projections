@@ -1,0 +1,94 @@
+###
+
+POST http://localhost:8080/some/rest/projects
+accept: application/json
+Content-Type: application/json
+
+{
+  "gdnId": "My project 1",
+  "user": {
+    "id": 1,
+    "name": "My first user Id"
+  }
+}
+
+### Updating a project and user in one go after both have been created.
+
+
+PUT http://localhost:8080/some/rest/projects/1
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "description": "IdDescription",
+  "user": {
+    "id": 1,
+    "name": "My first user Id",
+    "description": "IdDescription"
+  }
+}
+
+
+
+###
+POST http://localhost:8080/some/rest/project
+accept: application/json
+Content-Type: application/json
+
+{
+  "name": "My project 1",
+  "user": {
+    "id": 2
+  }
+}
+
+###
+
+POST http://localhost:8080/some/rest/project
+accept: application/json
+Content-Type: application/json
+
+{
+  "name": "My project 1",
+  "user": {
+  "id": 3
+ }
+}
+
+
+
+### Updating a project and user in one go after both have been created.
+
+
+PUT http://localhost:8080/some/rest/project/4
+accept: application/json
+Content-Type: application/json
+
+{
+  "name": "My project 4",
+  "user": {
+    "id": "My third user Id"
+  }
+}
+
+###
+
+### Updating a project and user in one go after both have been created.
+
+
+PUT http://localhost:8080/some/rest/project/1
+accept: application/json
+Content-Type: application/json
+
+{
+  "id": 1,
+  "user": {
+    "id": 1,
+    "creationDate": 1597240611000,
+    "modificationDate": 1597240611000,
+    "description": "blah "
+  }
+}
+
+###

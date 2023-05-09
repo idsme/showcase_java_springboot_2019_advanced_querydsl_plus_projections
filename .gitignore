@@ -1,0 +1,51 @@
+# compiled output
+/npm
+/dist
+/tmp
+/out-tsc
+/target
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings
+.factorypath
+.checkstyle
+.externalToolBuilders
+
+#Flashbuilder
+.actionScriptProperties
+.flexProperties
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+.vscode/launch.json
+!.vscode/extensions.json
+settings.json
+null
+
+# Netbeans
+nb-configuration.xml
+
+# Build
+/**/bin/
+/**/target/
+/**/src/generated/
+sys
+test-output
+
+# netcdf - (exceeds git's filesize limit of 100 MB)
+*.nc
+
+# Misc.
+.DS_Store
+node_modules
