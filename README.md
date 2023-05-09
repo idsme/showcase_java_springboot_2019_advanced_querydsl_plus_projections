@@ -15,15 +15,14 @@ code an API service by hand on the FE side again.
 * Using QueryDSL made the implementation more adaptable at repository level. Cutting implementation time 6 fold. No unit tests needed just E2E.
 
 ## REST as close to spec as possible: 
-- <img
+<img
   src="./ReferenceInformationEndpoint.png"
   alt="Saved then Saved with Error"
   title="The right way to do rest"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## Json/SOAP certainly not REST :
-
-- <img
+<img
   src="./NotRest_ButJson_Soap.jpg"
   alt="Json/SOAP not Rest"
   title="The wrong way to do rest"
