@@ -13,7 +13,7 @@ Projections took the same amount of time as DTO's, but no unit tested where need
 * Spring Projections allow you to decouple your ORM domain model from your API model like DTO's. "But using interfaces".
 * Using QueryDSL made the implementation more adaptable at repository level. Cutting implementation time 6 fold. No unit tests needed just E2E.
 
-## Method to get to a REST Implementation close to theoretical specpossible: 
+## Method to get to a REST Implementation close to theoretical spec possible: 
 Is a rest Endpoint always an interpretation of the developer or can we generated it fully.
 Using SpringData Rest 'which millions of developers use' and might contain the true spec in a practical example as we can get.
 This project showcases that we can.
