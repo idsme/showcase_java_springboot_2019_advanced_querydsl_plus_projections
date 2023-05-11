@@ -1,4 +1,4 @@
-# ShowCase of Rest Perfect implementaitoion.
+# ShowCase of Rest Perfect implementation.
 * JAVA/SPRING 2 plus
 * QueryDSL
 * Spring Projections 
