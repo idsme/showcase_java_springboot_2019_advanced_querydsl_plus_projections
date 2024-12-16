@@ -1,0 +1,12 @@
+POST http://localhost:8080/some/rest/references
+accept: */*
+Content-Type: application/json
+
+{
+  "description": "The Netherlands descripion",
+  "name": "NL name",
+  "sequenceNumber": 1,
+  "type": "country"
+}
+
+###
