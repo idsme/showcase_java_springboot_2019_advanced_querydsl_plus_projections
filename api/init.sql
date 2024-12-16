@@ -1,7 +1,9 @@
-CREATE USER somename
-  IDENTIFIED BY somename
-  QUOTA unlimited on SYSTEM;
+-- CREATE USER somename
+--   IDENTIFIED BY somename
+--   QUOTA unlimited on SYSTEM;
 
+
+-- TODO IDSME Test if this is still needed below
 GRANT create session TO somename;
 GRANT create table TO somename;
 GRANT create view TO somename;
