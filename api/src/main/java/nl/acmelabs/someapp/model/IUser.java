@@ -5,6 +5,4 @@ public interface IUser {
 
     String getName();
 
-    Reference getMiningActDataRef();
-
 }
