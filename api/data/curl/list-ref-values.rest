@@ -1,6 +1,6 @@
 ###
 
-GET http://localhost:8080/some/rest/refvalues
+GET http://localhost:8080/some/rest/references
 accept: application/json
 Content-Type: application/json
 
